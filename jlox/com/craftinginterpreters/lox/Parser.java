@@ -51,6 +51,7 @@ class Parser {
             return ifStatement();
         if (match(PRINT))
             return printStatement();
+        if (match(RETURN)) return returnStatement();
         if (match(WHILE))
             return whileStatement();
         if (match(LEFT_BRACE))
