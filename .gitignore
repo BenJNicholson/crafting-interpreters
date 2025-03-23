@@ -89,3 +89,17 @@ Mkfile.old
 dkms.conf
 
 # End of https://www.toptal.com/developers/gitignore/api/c
+
+# Created by https://www.toptal.com/developers/gitignore/api/zig
+# Edit at https://www.toptal.com/developers/gitignore?templates=zig
+
+### zig ###
+# Zig programming language
+
+zig-cache/
+zig-out/
+build/
+build-*/
+docgen_tmp/
+
+# End of https://www.toptal.com/developers/gitignore/api/zig
